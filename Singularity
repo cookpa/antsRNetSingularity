@@ -47,8 +47,8 @@ Container to build ANTsRNet
     # Install R, packages, ANTsR, ANTsRNet
 
     echo "
-# For R installation
-deb https://cloud.r-project.org/bin/linux/ubuntu xenial/
+# For R installation of version 3.6 
+deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/
 " >> /etc/apt/sources.list
 
     apt-key add /opt/installFiles/key.txt
